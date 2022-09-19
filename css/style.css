@@ -1,0 +1,40 @@
+body{
+    font-family: 'Ubuntu';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    position: relative;
+}
+h2{
+    font-size: 2em;
+}
+
+i.wi{
+    font-size: 6em;
+    line-height: 3em;
+
+}
+.infobulle{
+    opacity: 0;
+    position:absolute;
+    transition: opacity .3s, top .5s;
+    left:100px;
+    color: #FFFFFF;
+    background-color: #666;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+/*
+h1:hover .infobulle{
+    opacity: 1;
+    top: -15Opx;
+}
+*/
